@@ -8,6 +8,8 @@ public class TestSomething {
 		
 		String isoCode = user.getAddress().getCountry().getIsoCode().toUpperCase();
 		
+		System.out.println(isoCode);
+		
 	}
 
 }
